@@ -12,3 +12,101 @@ img,
 video {
   display: block;
 }
+
+h1 {
+  display: none;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.sticks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.sticks .texte {
+  width: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.suisse {
+  display: flex;
+  gap: 2px;
+}
+
+.suisse .yellow {
+  padding: 8px 86px;
+}
+
+.suisse .blue {
+  padding: 8px 41px;
+}
+
+.etats-unis {
+  display: flex;
+  gap: 2px;
+}
+
+.etats-unis .yellow {
+  padding: 8px 65px;
+}
+
+.etats-unis .blue {
+  padding: 8px 62px;
+}
+
+.europe {
+  display: flex;
+  gap: 2px;
+}
+
+.europe .yellow {
+  padding: 8px 50px;
+}
+
+.europe .blue {
+  padding: 8px 77px;
+}
+
+.sticks .blue {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.yellow {
+  background: #ffcc2f;
+  color: white;
+}
+
+.blue {
+  background: #37d3d2;
+  color: white;
+}
+
+.legende {
+  display: flex;
+  gap: 20px;
+  height: 56px;
+  align-items: center;
+  padding-left: 194px;
+}
+
+.mobile {
+  display: flex;
+}
+
+.desktop {
+  display: flex;
+}
+
+.legende .blue,
+.legende .yellow {
+  width: 16px;
+  height: 16px;
+}
